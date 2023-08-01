@@ -25,7 +25,7 @@ class Owner:
         pet.owner = self
     
     def get_sorted_pets(self):
-        return sorted(Pet.all, key=lambda x: x.name)
+        return sorted(Pet.all, key=lambda pet: pet.name)
 
 
 
